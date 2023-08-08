@@ -97,10 +97,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+    position: relative;
+    color: var(--color-iris);
 }
 .logo {
-        position: relative;
-        color: var(--color-iris);
+        
+        
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     font-size: 18px;
@@ -116,7 +118,7 @@ body {
 .logo-dark {
     color: var(--color-blue);
 }
-.logo::after {
+.header::after {
     content: '';
     position: absolute;
     left: 0; 
