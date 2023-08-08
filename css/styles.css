@@ -98,7 +98,7 @@ body {
     align-items: center;
     padding: 24px 0;
     position: relative;
-    color: var(--color-iris);
+    color: var(--color-ocean);
 }
 .logo {
         
@@ -118,7 +118,7 @@ body {
 .logo-dark {
     color: var(--color-blue);
 }
-.header::after {
+.header__nav::after {
     content: '';
     position: absolute;
     left: 0; 
