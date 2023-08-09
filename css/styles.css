@@ -129,8 +129,6 @@ body {
     background-color: var(--color-ocean);
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    color: #404bbf; 
 }
 .h-nav__list {
     display: flex;
@@ -138,13 +136,10 @@ body {
     margin-left: 0;
     gap: 40px;
     height: 72px;
-                color: var(--color-ocean);   
 }
 .h-address a,
 .h-nav__list a {
     color: var(--color-blue);
-
-    color: #404bbf; 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -328,17 +323,17 @@ body {
 
 
 /*features*/
-.features__list {
+.features {
     display: flex;
     justify-content: center;
     gap: 24px;
     max-width: 1128px;
     margin: 120px 0;
 }
-.features__li {
+.features-li {
     width: calc((100% - 24px * 3) / 4);
 }
-.features__li-icon {
+.features-li__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -405,19 +400,20 @@ body {
     /* width: calc((100% - 3 * 24px) / 4); */
 
 }
-.our-team__card-content {
+.our-team__card {
     background: var(--color-white);
+}
+.our-team__card-content {
     display: flex;
     padding-bottom: 0;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 0px 0px 4px 4px;
-    padding: 32px 0;
     text-align: center;
     gap: 8px;
-
-    background-color: #a03939;
+    /* background-color: #a03939; */
+    margin: 32px 0;
 }
 .our-team__card-content > img {
     width: 264px;
@@ -432,7 +428,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-        background-color: #acd962;
+        /* background-color: #acd962; */
 
 }
 .our-team__card-text {
@@ -447,13 +443,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 32px 0;
-
 }
 .our-team__card-icon {
     display: flex;
     justify-content: center;
     gap: 24px;
+
 
 }
 .our-team__card-icon-li {
@@ -594,7 +589,7 @@ body {
 .footer-wrapper__logo {
     padding-top: 100px;
     padding-bottom: 17px;
-                margin-right: 120px;
+    margin-right: 120px;
 }
 .logo-light {
     color: var(--color-cloud);
@@ -607,24 +602,24 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 17px;
-                margin-bottom: 16px;
+                
 }
 .footer__social-media {
     display: block;
     align-items: flex-start;
     padding-top: 100px;
 }
-.footer-social-media__text {
+.footer-social-media {
     color: var(--color-white);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
 }
 
 /* footer-social-icon */
-.footer-social__icon {
+.footer-social {
     display: flex;
     justify-content: center;
     gap: 16px;
