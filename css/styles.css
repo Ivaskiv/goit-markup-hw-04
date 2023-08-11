@@ -94,6 +94,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+            color: var(--color-ocean); 
 }
 .logo {
     font-family: "Raleway", sans-serif;
@@ -108,9 +109,7 @@ body {
 .h-nav__list-li {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-        .h-nav__list-li a {
-            color: #404bbf;
-        }
+
 .h-address__list-li {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -431,7 +430,6 @@ body {
     position: relative;
     transition-property: background-color;
 }
-.our-team__card-icon-li a,
 .our-team__card-icon-li a:focus {
     background-color: var(--color-ocean);
 }
@@ -508,7 +506,6 @@ body {
     height: 100%;
     border-radius: 4px;
     border: 1px solid var(--color-light-slate);
-    transition-property: border-color;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     transition-property: fill;
@@ -520,7 +517,8 @@ body {
 .customers__logo-li svg {
     width: 104;
     height: 56;
-    border: none;fill: var(--color-ocean);
+    border: none;
+    /*  */
 }
 .customers__logo-li a:hover,
 .customers__logo-li a:focus {
@@ -528,7 +526,7 @@ body {
     border-color: var(--color-ocean);
 }
 .customers__logo-li .icon:hover {
-    
+    fill: var(--color-ocean);
 }
 .customers__logo-li:hover {
     border-color: var(--color-ocean);
