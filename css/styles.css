@@ -428,9 +428,10 @@ body {
     position: relative;
     transition-property: background-color;
 }
-/* .our-team__card-icon-li a:focus {
-    background-color: var(--color-ocean);
-} */
+            .our-team__card-icon-li .link:hover,
+            .our-team__card-icon-li .link:focus {
+                background-color: var(--color-ocean);
+            }
 .our-team__card-icon-li a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
