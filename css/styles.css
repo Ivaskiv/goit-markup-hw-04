@@ -496,7 +496,8 @@ body {
     gap: 24px;
 }
 .customers__logo .icon{
-    fill: var(--color-light-slate);
+    /* fill: var(--color-light-slate); */
+    fill: currentColor;
 }
 .customers__logo-li {
     width: calc((100% - 24px * 5) / 6);
@@ -508,7 +509,7 @@ body {
     border: none;
 }
 .customers__logo-svg {
-        fill: currentColor;
+        fill: none;
 }
 .customers__link .link{
     color: var(--color-light-slate);
