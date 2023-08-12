@@ -524,22 +524,14 @@ body {
     align-items: center;
     justify-content: center;
 }
-                    .customers__link:hover,
-                    .customers__link:focus {
+                    .customers__logo .link:hover,
+                    .customers__logo .link:focus {
                         border-color: #404bbf;
                         color: #404bbf;
-                    }
-
-                    .customers__logo-li .icon:hover {
                         fill: #404bbf;
                     }
 
-                    .customers__logo-li .link:hover,
-                    .customers__logo-li .link:focus {
-                        color: #404bbf;
-                        border-color: #404bbf;
-                        fill: #404bbf;
-                    }
+
 
 /* 
 .customers__logo-li .link:hover,
