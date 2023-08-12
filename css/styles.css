@@ -363,9 +363,9 @@ body {
     padding-top: 120px;
     background-color: var(--color-cloud);
 }
-.our-team a:focus {
+/* .our-team a:focus {
     background-color: #404bbf;
-}
+} */
 .our-team__title {
     display: flex;
     justify-content: center;
@@ -430,10 +430,10 @@ body {
     position: relative;
     transition-property: background-color;
 }
-            .our-team__card-icon-li .link:hover,
-            .our-team__card-icon-li .link:focus {
-                background-color: var(--color-ocean);
-            }
+.our-team__card-icon-li .link:hover,
+.our-team__card-icon-li .link:focus {
+    background-color: var(--color-ocean);
+}
 .our-team__card-icon-li a {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
@@ -495,9 +495,9 @@ body {
     display: flex;    
     gap: 24px;
 }
-                .customers__logo .icon{
-                    fill: var(--color-light-slate);
-                }
+.customers__logo .icon{
+    fill: var(--color-light-slate);
+}
 .customers__logo-li {
     width: calc((100% - 24px * 5) / 6);
     height: 88px;
@@ -518,24 +518,24 @@ body {
     height: 100%;
     color: var(--color-light-slate);
     border-radius: 4px;
-    border: 1px solid var(--color-cornflower);
+    border: 1px solid var(--color-light-slate);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
                 color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    /* transition-property: fill; */
+    transition-property: fill;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-                    .customers__link:hover,
-                    .customers__link:focus {
-                        border-color: #404bbf;
-                        color: #404bbf;
-                        
-                    }
-                    .customers__logo-svg:hover,
-                    .customers__logo-svg:focus{
-                        fill: #404bbf;
-                    }
+.customers__link:hover,
+.customers__link:focus {
+    border-color: var(--color-ocean);
+    color: var(--color-ocean);
+    
+}
+.customers__logo-svg:hover,
+.customers__logo-svg:focus{
+    fill: var(--color-ocean);
+}
 
 /*examples*/
 .examples {
