@@ -626,11 +626,13 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    fill: var(--color-cloud);
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+}
+.footer-social__icon-svg {
+    fill: var(--color-cloud);
 }
 .footer-social__icon-link {
     width: 100%;
@@ -642,8 +644,8 @@ body {
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-                .footer__link:hover,
-                .footer__link:focus {
+                .footer-social__icon-link:hover,
+                .footer-social__icon-link:focus {
                     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                     background-color: var(--color-green);
                 }
