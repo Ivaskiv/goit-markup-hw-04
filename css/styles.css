@@ -78,8 +78,8 @@ body {
 .header {
     border-bottom: 1px solid var(--color-cornflower);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px rgba(46, 47, 66, 0.08); 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 .header__container {
     display: flex;
@@ -198,7 +198,7 @@ body {
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);  
+                    rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);  
     background-repeat: no-repeat; 
     background-position: center center;
     background-size: cover;
@@ -278,7 +278,9 @@ body {
         background: var(--color-modal);
         border-radius: 4px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20),
+                    0px 1px 3px 0px rgba(0, 0, 0, 0.12), 
+                    0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 .modal__close {
     display: flex;
@@ -295,7 +297,8 @@ body {
     top: 24px;
     right: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 .modal__close>svg{
@@ -381,8 +384,7 @@ body {
     justify-content: center;
     align-items: center;
     row-gap: 48px; 
-    padding: 120px 0;    
-    /* width: calc((100% - 3 * 24px) / 4); */
+    padding: 120px 0;   
 }
 .our-team__card-content {
     display: flex;
@@ -439,8 +441,6 @@ body {
     border: 1px solid var(--color-light-slate);
 }
 .our-team__card-icon-li-link {
-    /* width: 100%;
-    height: 100%; */
     background-color: var(--color-iris);
     border-radius: 50%;
     display: flex;
@@ -464,7 +464,9 @@ body {
     border: 1px solid transparent;
 }
 .our-team__list .our-team__card {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px; 
 }
 
@@ -493,9 +495,9 @@ body {
     display: flex;    
     gap: 24px;
 }
-/* .customers__logo .icon{
-    fill: var(--color-light-slate);
-} */
+                .customers__logo .icon{
+                    fill: var(--color-light-slate);
+                }
 .customers__logo-li {
     width: calc((100% - 24px * 5) / 6);
     height: 88px;
@@ -524,31 +526,17 @@ body {
     align-items: center;
     justify-content: center;
 }
-                    .customers__logo .link:hover,
-                    .customers__logo .link:focus {
+                    .customers__link:hover,
+                    .customers__link:focus {
                         border-color: #404bbf;
                         color: #404bbf;
+                        
+                    }
+                    .customers__logo-svg:hover,
+                    .customers__logo-svg:focus{
                         fill: #404bbf;
                     }
 
-
-
-/* 
-.customers__logo-li .link:hover,
-.customers__logo-li .link:focus {
-        color: var(--color-ocean);
-        border-color: var(--color-ocean);
-}
-.customers__logo-li .icon:hover {
-    fill: var(--color-ocean);
-}
-.customers__logo-li:hover {
-    border-color: var(--color-ocean);
-}
-.customers__logo-li:focus {
-    color: var(--color-ocean); 
-    border-color: var(--color-ocean);
-} */
 /*examples*/
 .examples {
     padding-bottom: 120px;
@@ -674,15 +662,15 @@ body {
 }
 .f-btn-list {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f-btn-list__li:hover,
 .f-btn-list__li:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-    0px 2px 1px rgba(0, 0, 0, 0.08), 
-    0px 2px 2px rgba(0, 0, 0, 0.12); 
+                0px 2px 1px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12); 
 
 }
 .f-btn-list__button {
@@ -699,16 +687,16 @@ body {
     border: 1px solid var(--color-cornflower);
     background: var(--color-cloud);
     padding: 12px 24px;
-            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
-            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .f-btn-list__button:hover,
 .f-btn-list__button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
-    0px 2px 1px rgba(0, 0, 0, 0.08), 
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+                0px 2px 1px rgba(0, 0, 0, 0.08), 
+                0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*gallery*/
 .gallery {
@@ -730,8 +718,8 @@ body {
 .gallery__card a:hover,
 .gallery__card a:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery:first-of-type {
@@ -745,8 +733,8 @@ body {
 .gallery__item:focus .overlay {
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 2px 1px rgba(46, 47, 66, 0.08); 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 2px 1px rgba(46, 47, 66, 0.08); 
     transition: var(--color-ocean);
 }
 .gallery__card img {
