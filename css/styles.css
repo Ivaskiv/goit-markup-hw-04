@@ -493,16 +493,16 @@ body {
     display: flex;    
     gap: 24px;
 }
-.customers__logo .icon{
+/* .customers__logo .icon{
     fill: var(--color-light-slate);
-}
+} */
 .customers__logo-li {
     width: calc((100% - 24px * 5) / 6);
     height: 88px;
 }
 .customers__logo-li svg {
-    width: 104;
-    height: 56;
+    width: 104px;
+    height: 56px;
     border: none;
 }
 .customers__logo-svg {
@@ -526,8 +526,8 @@ body {
 }
 .customers__logo-li .link:hover,
 .customers__logo-li .link:focus {
-        background-color: var(--color-ocean);
-    border-color: var(--color-ocean);
+        color: var(--color-ocean);
+        border-color: var(--color-ocean);
 }
 .customers__logo-li .icon:hover {
     fill: var(--color-ocean);
